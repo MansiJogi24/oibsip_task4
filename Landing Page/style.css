@@ -1,0 +1,187 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+
+  .hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #fff;
+    height: 1100px;
+  }
+  
+  .hero-content h1 {
+    font-size: 50px;
+    color: #fff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .hero-content b {
+    font-size: 80px;
+    background: linear-gradient(to bottom, #eeff00, #f675da);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color:#fff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  } 
+
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  
+  .button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+  
+  .h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+  }
+
+  .h-secondary{
+    font-size: 1.6rem;
+    padding: 12px;
+  }
+
+  .menus{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #menu{
+    margin: 25px;
+    padding: 20px;
+    display: block;
+  }
+
+  #menu .box{
+    border: 2px solid none;
+    text-align: center;
+    padding: 34px;
+    margin: 3px 3px;
+    border-radius: 28px;
+    background: #f2f2f2;
+  }
+
+  #menu .box img{
+    margin: auto;
+    display: block;
+    border-radius: 30px;
+  }
+  
+  .about {
+    text-align: center;
+    padding: 50px 120px;
+    background-color: #fafaf0;
+  }
+  
+  .about h2 {
+    font-size: 3.6rem;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.4rem;
+    text-align: justify;
+  }
+
+  #contact{
+    position: relative;
+  }
+
+  #contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/contact_us.jpg');
+    opacity: 0.5;
+    z-index: -1;
+    background-size: cover;
+  } 
+
+  #contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+  
+  .contact-section h2 {
+    text-align: center;
+    font-size: 3.4rem;
+    padding: 20px 10px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form textarea {
+    height: 150px;
+  }
+  
+  .contact-form input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+    
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
